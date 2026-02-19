@@ -78,4 +78,7 @@ dependencies {
     implementation(libs.firebase.firestore)
     // Add the dependency for the Firebase Authentication library
     implementation(libs.firebase.auth)
+
+    implementation(project(":core:model"))
+
 }
