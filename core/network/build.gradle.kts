@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.galeria.network"
+    namespace = "com.galeria.core.network"
     compileSdk {
         version = release(36)
     }
@@ -45,5 +45,5 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation(libs.hilt.android)
-    ksp(libs.hilt.android.compiler)
+    ksp(libs.hilt.compiler)
 }
